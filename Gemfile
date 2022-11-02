@@ -9,6 +9,10 @@ gem "rails", "~> 7.0.4"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem 'bootstrap-sass', '3.4.1'
+
+gem 'rails-controller-testing'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
  gem 'sqlite3'
