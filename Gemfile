@@ -13,8 +13,6 @@ gem 'bootstrap-sass', '3.4.1'
 
 gem 'rails-controller-testing'
 
-gem 'jsbundling-rails'
-
 # Use sqlite3 as the database for Active Record
 group :development, :test do
  gem 'sqlite3'
